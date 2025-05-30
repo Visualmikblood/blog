@@ -163,19 +163,6 @@ button + button {
   padding: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* index.css */
 body {
   margin: 0;
@@ -219,3 +206,4 @@ body.dark .ql-container {
 .container {
   margin-top: 20px;
 }
+

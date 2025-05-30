@@ -12,7 +12,7 @@ const PostList = ({ posts, onEdit }) => {
           <div className="post-card" key={index}>
             <h3>{post.title}</h3>
             {post.image && (
-              <img src={post.image} alt={`Imagen destacada de ${post.title}`} className="post-image" />
+              <img src={post.image} alt={Imagen destacada de ${post.title}} className="post-image" />
             )}
             <p><strong>Categoría:</strong> {post.category || 'Sin categoría'}</p>
             <div
