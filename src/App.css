@@ -1,0 +1,221 @@
+/* Contenedor general */
+.blog-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+/* Sección del editor */
+.editor-section {
+  flex: 1 1 400px;
+  min-width: 320px;
+  background-color: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+}
+
+/* Sección posts */
+.posts-section {
+  flex: 2 1 600px;
+  min-width: 320px;
+}
+
+/* Formulario */
+.new-post-form input[type="text"],
+.new-post-form input[type="file"],
+.new-post-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.new-post-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-post-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Post cards */
+.post-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+}
+
+.post-card h3 {
+  margin-top: 0;
+}
+
+.post-image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.post-content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.post-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-card button:hover {
+  background-color: #19692c;
+}
+
+
+
+
+
+
+.form-container {
+  max-width: 700px;     /* Limita el ancho máximo */
+  margin: 20px auto;    /* Centra horizontalmente y añade margen arriba/abajo */
+  padding: 20px;
+  background: #fff;     /* Fondo blanco para destacar */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+}
+
+.new-post-form input[type="text"],
+.new-post-form textarea {
+  width: 100%;          /* Que inputs y textarea ocupen todo el ancho disponible */
+  box-sizing: border-box;
+}
+
+.new-post-form button {
+  margin-top: 15px;
+}
+
+
+
+.app-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+
+
+
+button {
+  background-color: #007BFF; /* Azul brillante */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  color: #666666;
+}
+
+button + button {
+  margin-left: 10px; /* Separar botones cuando hay más de uno */
+}
+
+.ql-container {
+  min-height: 200px;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+.ql-editor {
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilos para modo oscuro */
+body.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+body.dark .blog-post {
+  background-color: #2d2d2d;
+  border-color: #555;
+}
+
+body.dark input,
+body.dark select,
+body.dark .ql-container {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
